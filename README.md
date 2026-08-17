@@ -1,7 +1,15 @@
-# classync
-Automates timetable-to-calendar sync and coursework template generation from your OneDrive syllabus folder.
+# Classync
 
+Automates the tedious parts of managing university coursework. Classync parses your MMU timetable export and syncs it to Outlook (or Google Calendar) as recurring events, then watches a OneDrive folder for new syllabus/coursework uploads — automatically extracting assignment, lab, and tutorial deadlines and generating starter document templates for each one.
 
+## Features
+
+- **Timetable sync** — Parses a downloaded MMU timetable (PDF/Excel) and pushes recurring class events to Outlook Calendar via Microsoft Graph API
+- **OneDrive folder watcher** — Detects new syllabus/coursework files dropped into a designated OneDrive folder
+- **Deadline extraction** — Uses an LLM to read syllabus text and pull structured assignment/lab/tutorial deadlines
+- **Template generation** — Auto-generates starter documents (assignment templates, lab report templates, tutorial guides) back into the OneDrive folder
+
+## Status
 🚧 Early development — building phase by phase (timetable sync first).
 
 ## Roadmap
